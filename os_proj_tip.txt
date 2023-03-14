@@ -1,0 +1,85 @@
+threads pe time zyade
+process pe kam
+chote input pe thread zayada time lega
+process kam time lega 
+viseversa for larger input
+-------------------------------------------------------
+A process is an executing instance of an application and a thread is a
+path of exeution 
+within a process. The same methodology is applied to
+implement the following sorting 
+algorithms:
+
+
+
+1.Bubble Sort
+
+2.Insertion Sort
+
+3.Merge Sort
+
+4.Quick Sort
+
+5.Heap Sort
+
+
+
+Firstly, all 5 sorting algorithms are implemented using threads and 
+process techniques. 
+In Process, the function fork() is used to create 
+parent and child processes which then 
+access the different sub parts 
+of the main array and sort them. After that every 
+subarray is merged 
+into one.
+
+
+
+In Threads, 4 individual threads are created to divide the main array
+ into 4 equal parts. 
+Each thread then performs the sorting, and then 
+the threads are joined to display the 
+sorted arrays.
+
+During each sorting algorithm, its time complexity is also calculated
+
+which is then used to differentiate between the two approaches, 
+process and threads, 
+to see which one is more efficient and faster.
+
+
+
+The code file contains a menu driven program, which gives us the 
+option to select 
+between process and threads as a choice to do the
+ sorting. Then we have to select the 
+respective sorting function. Each 
+sorting algorithm is implemented 2 time, one using 
+the concept of
+ process and other through threads. Other than these some other 
+
+functions are:
+
+
+
+1.Display:
+
+
+
+The funtion displays the unsorted/sorted array.
+
+
+
+2.Swap:
+
+
+
+This funtion swaps the two instances of an array.
+
+
+
+3.Combine:
+
+
+
+This function merges the sub arrays in case of sorting through threads
